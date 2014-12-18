@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Marionette Behavior Test</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div data-region="content"></div>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/lodash/dist/lodash.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/backbone.marionette/lib/backbone.marionette.js"></script>
+    <script src="app.js"></script>
+    <script id="initial-view" type="text/html">
+      <h1>Hello World</h1>
+      <button data-for="output">Click Me</button>
+      <button data-for="call-delegateEvents">Call deletegateEvents</button>
+    </script>
+  </body>
+</html>
